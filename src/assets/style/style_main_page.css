@@ -40,6 +40,17 @@ body {
     }
 }
 
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (max-width: 767px) {
+    .container_all{
+    
+        margin-top: 50%;
+        align-content:space-between;
+      justify-content: space-between;
+      
+    }
+}
+
 
 /*
 @media(min-width:576px){
